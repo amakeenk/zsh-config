@@ -38,3 +38,26 @@ SPACESHIP_GIT_SYMBOL=""
 SPACESHIP_GIT_BRANCH_SUFFIX=""
 SPACESHIP_GIT_STATUS_PREFIX=" "
 SPACESHIP_GIT_STATUS_SUFFIX=""
+
+# aliases
+alias ll='ls -l'
+alias u='sudo apt-get update'
+alias ud='u && sudo apt-get -V dist-upgrade'
+alias udk='ud && sudo update-kernel'
+alias udkc='sudo apt-repo clean && udk'
+alias ara='sudo apt-repo add'
+alias art='sudo apt-repo test'
+alias arl='apt-repo list'
+alias arm='sudo apt-repo rm'
+alias agip='u && sudo apt-get -V install'
+alias agrp='sudo apt-get -V remove'
+alias agar='sudo apt-get -V autoremove'
+alias acs='apt-cache search'
+alias acwd='apt-cache whatdepends'
+alias sstat='systemctl status'
+alias sstart='sudo systemctl start'
+alias sstop='sudo systemctl stop'
+alias ssres='sudo systemctl restart'
+alias svim='sudo vim'
+alias epu='sudo epm play --update'
+alias epua='sudo epm play --update all'
